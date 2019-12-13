@@ -1,0 +1,19 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.btn:focus, .btn-primary:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.dark-mode-bg {
+  background-color: #2C2F33;
+  transition: 500ms;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
